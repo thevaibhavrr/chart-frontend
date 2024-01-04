@@ -1,38 +1,90 @@
-.App {
+/* App.css */
+
+.dashboard {
   text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filters {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.apply-button {
+  background-color: #4caf50;
   color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.apply-button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chart-container {
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
 }
+
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  margin: 0; /* Reset Bootstrap's default margin for rows */
+}
+
+.col-md-3,
+.col-md-6 {
+  margin-bottom: 20px;
+}
+
+/* Add these styles to your App.css file or your preferred stylesheet */
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.404);
+}
+
+.filter-select {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.apply-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Add more styles as needed */
+
