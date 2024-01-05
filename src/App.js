@@ -47,7 +47,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:7000/all-users");
+      const response = await axios.get("https://chart-backend-6g5j.onrender.com/all-users");
       setData(response.data.Allusers);
       setFilteredData(response.data.Allusers);
     } catch (error) {
